@@ -26,3 +26,7 @@ jobs:
       run: |
         cd src
         python -m pytest addition.py
+
+    - name: echo details
+      run: |
+        echo "executed successfully"
